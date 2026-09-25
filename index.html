@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="logo">Movie<span>Hub</span></a>
+      <nav class="site-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link is-active">Home</a></li>
+          <li><a href="movie-details.html" class="nav-link">Details</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-cta">Sign In</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__title">Find any movie, instantly.</h1>
+      <p class="hero__subtitle">Search millions of titles and dive straight into the details.</p>
+      <form id="movieForm" class="search-bar search-bar--hero" action="">
+        <input
+          id="movieInput"
+          class="search-bar__input"
+          type="text"
+          placeholder="Search movie title (e.g. Inception, The Matrix)..."
+        />
+        <button class="search-bar__button">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <main class="site-main">
+    <div id="movieHub" class="movie-grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer__grid">
+      <div class="footer__col">
+        <p class="footer__col-title">Company</p>
+        <a href="#">About</a>
+        <a href="#">Jobs</a>
+        <a href="#">Press</a>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Support</p>
+        <a href="#">Help Center</a>
+        <a href="#">Contact Us</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Legal</p>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookie Preferences</a>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Account</p>
+        <a href="#">Manage Account</a>
+        <a href="#">Devices</a>
+        <a href="#">Redeem Gift Cards</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      &copy; 2026 Movie Hub. Movie data powered by OMDb.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+index.html
+Displaying index.html.
